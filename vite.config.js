@@ -2,5 +2,5 @@ import { defineConfig } from "vite";
 
 
 export default defineConfig({
-    base: '/PsirisLandingPage/'
+    base: '/psirisdev.github.io/'
 })
