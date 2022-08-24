@@ -1,13 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="img/LogoPsirisIcon.png" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Psiris</title>
+</head>
+
+<body>
+  <div class="blob-scene">
+    <div class="logo">
+      <img src="./img/LogoPsiris.png" alt="Logo">
+    </div>
+    <main>
+      <div class="cover">
+        <div class="image">
+          <img src="img/dashboard-stats.png" alt="Dashboard">
+        </div>
+        <div class="text">
+          <div class="container-animation">
+            <h1>Más allá de la <span class="auto-type"></span></h1>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script>
+              var typed = new Typed(".auto-type", {
+                strings: ["Terapia", "Psicología", "Salud"],
+                typeSpeed: 180,
+                backSpeed: 150,
+                loop: true,
+              });
+            </script>
+          </div>
+          <div class="email-leads">
+          </div>
+          <p>Psiris es una plataforma digital diseñada para asistir en el proceso
+            de atención psicológica. Ponemos a disposición de los profesionales de
+            la salud mental un conjunto de herramientas para gestionar la terapia
+            y evaluar el progreso de cada uno de sus pacientes. Psiris te permite
+            encontrar y administrar en un solo lugar la información de todos tus pacientes.
+            Con Psiris ayudas más , haciendo menos. </p>
+            <div class="form_container">
+              <form action="https://api.sheetmonkey.io/form/9bbHhsy73ypdAkgJBE5Qtw" method="POST">
+                <input class="email" type="email" name="Email" placeholder="Escribe tu email para más" required />
+                <input type="hidden" placeholder="Escribe tu email para más" name="Created" value="x-sheetmonkey-current-date-time" />
+                <input class="btn" type="submit" value="Suscríbete" />
+              </form>
+            </div>
+            
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <section id="features">
+    <div class="features_main_container">
+      <div class="features_top">
+        <h1>¿Qué Ofrecemos? </h1>
+      </div>
+      <div class="features_container">
+        <div class="features_item">
+          <img class="feature_icon" src="img/features/Todos.svg" alt="Todos">
+          <h3>Todos tus Pacientes en el mismo Lugar</h3>
+          <p>Crea una cuenta para cada uno de tus pacientes y construye con ellos un perfil con información relevante:
+            historia clínica, antecedentes, diagnóstico, entre otros. </p>
+        </div>
+        <div class="features_item">
+          <img class="feature_icon" src="img/features/Notas.svg" alt="Notas">
+          <h3>Organiza tus Notas</h3>
+          <p>Almacena y administra tus notas de cada sesión de forma organizada usando todas las opciones que te provee
+            Psiris </p>
+        </div>
+        <div class="features_item">
+          <img class="feature_icon" src="img/features/Diario.svg" alt="Diario">
+          <h3>Conócelos más allá de las sesiones</h3>
+          <p>Ofrecele a tus pacientes un espacio de comunicación y reflexión más allá de las consultas, entérate día a
+            día cómo se sienten y de noticias relvantes en sus vidas. </p>
+        </div>
+        <div class="features_item">
+          <img class="feature_icon" src="img/features/Objetivos.svg" alt="Objetivos">
+          <h3>Procesos Distintos, Objetivos distintos</h3>
+          <p>Sabemos que cada paciente debe seguir su propio camino, por lo que ofrecemos la posibilidad de crear listas
+            de tareas personalizadas. Elige desde nuestro portafolio de tareas validadas por psicólogos o crea tus
+            propias tareas. </p>
+        </div>
+        <div class="features_item">
+          <img class="feature_icon" src="img/features/Progreso.svg" alt="Progreso">
+          <h3>Sigue su Progreso</h3>
+          <p>Genera encuestas y métricas para identifcar qué está mejorando y qué no y así adaptar la terapia al
+            progreso y las necesidades de tu paciente. </p>
+        </div>
+        <div class="features_item">
+          <img class="feature_icon" src="img/features/Recursos.svg" alt="Recursos">
+          <h3>Mantente Actualizado</h3>
+          <p>En nuestra sección de recursos encontrarás las investigaciones más recientes del mundo de la psicología de
+            forma centralizada y ordenada</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="services_main_container">
+      <div class="services_top">
+        <h1>Servicios </h1>
+      </div>
+      <div class="services_container">
+        <div class="services_item">
+          <img class="services_icon" src="img/services/Profesionales.svg" alt="Todos">
+          <h3>Para Profesionales</h3>
+          <p>Facilita tu día a día ofreciendo una mejor experencia a tus pacientes con las herramientas que Psiris tiene
+            para ti. Unifica tu flujo de trabajo y aumenta tu impacto fuera de las sesiones, teniendo a la vez más
+            tiempo para ti.</p>
+        </div>
+        <div class="services_item">
+          <img class="services_icon" src="img/services/Escuelas.svg" alt="Notas">
+          <h3>Para Escuelas y Organizaciones</h3>
+          <p>Mejora el bienestar de tus estudiantes y empleados con nuestro plan organizacional. Vincula las cuentas de
+            tu equipo de atención psicológica o de recursos humanos para mejorar la calidad de vida de cada individuo y
+            el ambiente colectivo de tu organización.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <script src="https://kit.fontawesome.com/7fa187abb8.js" crossorigin="anonymous"></script>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#" >
+            <img src="img/LogoPsirisWhite.png" alt="Logo">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>Psiris es una plataforma de herramientas digitales para psicología y salud mental</p>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="https://www.instagram.com/psiris_co/" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/psiris_co" class="fa-brands fa-twitter"></a>
+          <a href="https://www.linkedin.com/company/psiris/" class="fa-brands fa-linkedin-in"></a>
+        </div>  
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2022 <b>Psiris Co</b> - Todos los Derechos Reservados</small>
+    </div>
+  </footer>
+
+
+
+</body>
+
 </html>
