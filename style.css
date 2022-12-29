@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;600;700;800&family=Jost&display=swap');
+
+:root {
+    --pink: #FD4582;
+    --purpleii: #6F2DBD;
+    --dark-grey: #3F4582;
+    --blue: #262D6F;
+  }
+
+* {
+    font-family: 'Jost';
+    font-weight: 500;
+}
+
+
+.main {
+    max-width: 500px;
+    width: 90%;
+}
+
+.white-container {
+    background-color: white;
+}
+
+.grey-container {
+    background-color: var(--dark-grey);
+}
+
+.purple-container {
+    background-color: var(--purpleii);
+}
+
+.pink-font {
+    color: var(--pink);
+}
+
+.purple-font {
+    color: var(--purpleii);
+}
+
+.blue-font {
+    color: var(--blue);
+}
+
+.white-font {
+    color: white;
+}
+
+.heading-font {
+    font-family: 'Karla';
+    font-weight: 800;
+  }
+
+.subheading-font {
+    font-family: 'Karla';
+    font-weight: 700;
+  }
+
+.about {
+    max-width: 400px;
+    width: 90%;
+}
+
+.dashboard {
+    max-width: 450px;
+    width: 90%;
+}
+
+.platform-image {
+    max-width: 240px;
+}
+
+
+.btn {
+    padding: 0.5rem 4rem;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 2.5rem;
+    margin: auto;
+    background: linear-gradient(to right, purple, #6F2DBD);
+    color: whitesmoke;
+    box-shadow: 1px 1px 30px -12px var(--purpleii);
+    transition: all 300ms;
+  }
+  
+ .email {
+    width: 40%;
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+    border: none;    border-radius: 2.5rem;
+    margin: auto;
+    background: whitesmoke;
+  }
+  
+  .btn:hover {
+    box-shadow: 1px 1px 30px -6px purple;
+  }
